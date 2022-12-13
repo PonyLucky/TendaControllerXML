@@ -23,11 +23,12 @@ The first run may take around 10 seconds (more if you don't have a decent CPU or
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1670901196</DateInstalled>
+  <DateInstalled>1670969609</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI Port" Target="80" Default="8800" Mode="tcp" Description="Port to access WebUI" Type="Port" Display="always" Required="true" Mask="false">8800</Config>
   <Config Name="Config Path" Target="/config/" Default="/mnt/user/appdata/tenda-controller/" Mode="rw" Description="Config path to access 'plugs.json'." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tenda-controller/</Config>
   <Config Name="Router IP" Target="ROUTER_IP" Default="192.168.1.1" Mode="" Description="To force your Router IP if not 192.168.1.1" Type="Variable" Display="always" Required="false" Mask="false">192.168.1.1</Config>
+  <Config Name="Language" Target="LANGUAGE" Default="en" Mode="" Description="To force one language ('en', 'fr'). Defaults to 'en'." Type="Variable" Display="always" Required="false" Mask="false">en</Config>
 </Container>
